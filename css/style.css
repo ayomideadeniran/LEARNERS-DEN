@@ -124,7 +124,29 @@
     h2 {
         font-size: 1.1rem;
     }
+
+    /* #map iframe {
+        width: 330px;
+        height: 700px;
+    } */
+  
 }
+
+
+@media (max-width: 550px) {
+    #map iframe {
+        width: 300px;
+        height: 700px;
+    }
+}
+
+
+/* @media (max-width: 300px) {
+    #map iframe {
+        width: 10px;
+        height: 100px;
+    }
+} */
 
 @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
